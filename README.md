@@ -1,9 +1,12 @@
 # Spring Microservices in Action
-Whatever you're building, these guides are designed to get you productive as quickly as possible
 
 1.Welcome to the cloud, Spring
 
 2.Building microservices with Spring Boot
+
+	netstat -ano | find ":8080"
+	localhost:8081/v1/organizations/{e2406297-1e3b-42e7-a5d9-12f6e05edd55}/licenses/1335c3a8-3828-49d9-9954-c98aacd8cab3
+	localhost:8081/actuator
 
 3.Controlling your configuration with Spring Cloud configuration server
 
