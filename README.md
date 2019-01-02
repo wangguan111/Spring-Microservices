@@ -8,7 +8,14 @@
 	localhost:8081/v1/organizations/{e2406297-1e3b-42e7-a5d9-12f6e05edd55}/licenses/1335c3a8-3828-49d9-9954-c98aacd8cab3
 	localhost:8081/actuator
 
+
 3.Controlling your configuration with Spring Cloud configuration server
+
+	localhost:8081/v1/organizations/{organizationId}/licenses
+	cloud.config.server.native.searchLocations=classpath:config/,classpath:config/licensingservice,classpath:config/organizationservice
+
+	cloud.config=uri: http://localhost:8888
+
 
 4.On service discovery
 
